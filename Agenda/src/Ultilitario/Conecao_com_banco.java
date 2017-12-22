@@ -17,8 +17,8 @@ public class Conecao_com_banco {
     public  ResultSet rs;
     private String driver = "org.postgresql.Driver";
     private String caminho = "jdbc:postgresql://localhost:5432/agenda";
-    private String usuario = "postgres";
-    private String senha = "Hi<aki>08";
+    private String usuario = "";
+    private String senha = "";
     public  Connection conn;
     
     public void conexao(){
